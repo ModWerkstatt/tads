@@ -51,13 +51,7 @@ return {
 		},
 		landVehicle = { 
 			brakeDeceleration = 2.5,
-			engines = {
-				{ 
-					power = 6400,
-					tractiveEffort = 320,
-					type = "ELECTRIC",
-				},
-			},
+			engines = { },
 			friction = 0.0199999995529651641845703125,
 			topSpeed = 55.5556,
 			weight = 90,

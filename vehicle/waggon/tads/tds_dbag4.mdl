@@ -266,21 +266,7 @@ return {
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/stone/stone.cargo", },
-									},
-									loadIndicator = "",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 36,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+										cargoTypesIncluded = { "::/cargos/cement/cement.cargo", "::/cargos/fertilizer/fertilizer.cargo", "::/cargos/grain/grain.cargo", "::/cargos/sawdust/sawdust.cargo", },
 									},
 									loadIndicator = "",
 									seats = { },
