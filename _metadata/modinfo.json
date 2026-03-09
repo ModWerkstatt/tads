@@ -1,0 +1,22 @@
+{
+    "name": "Tads 958 and Tds 930",
+    "summary": "This mod includes 13 different paint schemes for the Tds 930 and Tads 958.",
+    "description": "In 1976 the Deutsche Bundesbahn 1500 car was built with a one-sided swivel roof. The wagons that were reserved for transporting food were labeled \"Getreide\" [grain]. The wagons are still in use at DB AG today. In 2021, some wagons were sold to EBS.",
+    "localization" : {
+        "de": {
+            "name": "Tads 958 und Tds 930",
+            "summary": "In diesem Mod sind 13 verschiedene Lackierungen der Tds 930 und Tads 958 enthalten.",
+            "description": "1976 lies die Deutsche Bundesbahn 1500 Wagen mit einem einseitigen Schwenkdach bauen. Die Wagen, die für den Lebensmitteltransport reserviert waren, trugen die Aufschrift \"Getreide\". Die Wagen sind bis heute bei der DB AG im Einsatz. 2021 wurden einige Wagen an die EBS verkauft."
+        }
+    },
+    "authors": [
+        {
+            "name": "Modwerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/tads"
+}
