@@ -277,7 +277,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "tds_menu.mdl",
+				groupFileName = "menu_tds.mdl",
 				loadSpeed = 4,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

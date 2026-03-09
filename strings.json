@@ -1,29 +1,29 @@
 {
 	"en": {
 		
-        "tads_menu" : "Tads 958 Swivel roof wagon",
-		"tds_menu" : "Tds 930 Swivel roof wagon",
+        "menu_tads" : "Tads 958 Swivel roof wagon",
+		"menu_tds" : "Tds 930 Swivel roof wagon",
 		
         "fake": "Fake - ",
 		
-        "fake_facs124" : "Enable Facs 124 Fake Versions?",
-        "tooltip_fake" : "Should the fake versions of the Facs 124 be available in the game?",
+        "fake_tads" : "Enable Fake Versions?",
+        "tooltip_fake_tads" : "Should the fake versions be available in the game?",
 		
-		"tads_db" : "Tadgs-y 958 DB",
-		"tads_db2" : "Tads-y 958 DB",
-		"tads_dbag" : "Tadgs-y 958 DB AG",
-		"tads_dbag2" : "Tads 958 DB AG",
-		"tads_dbag3" : "Tadgs 958 DB AG",
-		"tads_ebs" : "Tadgs-y 958 EBS",
+		"tads_db" : "Tadgs-y 958 reddish brown DB",
+		"tads_db2" : "Tads-y 958 reddish brown DB",
+		"tads_dbag" : "Tadgs-y 958 reddish brown DB AG",
+		"tads_dbag2" : "Tads 958 reddish brown DB AG",
+		"tads_dbag3" : "Tadgs 958 traffic red DB AG",
+		"tads_ebs" : "Tadgs-y 958 reddish brown EBS",
         "tads_desc" : "In 1976 the DB 1500 car was built with a one-sided swivel roof. The wagons that were reserved for transporting food were labeled (Grain). The wagons are still in use at DB AG today. In 2021, some wagons were sold to EBS.",
 
-		"tds_db" : "Ktmmvs 69 DB",
-		"tds_db2" : "Tdgs 930 DB",
-		"tds_db3" : "Tds 930 DB",
-		"tds_dbag" : "Tdgs-z 930 DB AG",
-		"tds_dbag2" : "Tdgs-z 930 DB AG",
-		"tds_dbag3" : "Tds-v 930 DB AG",
-		"tds_dbag4" : "Tds 930 DB AG",
+		"tds_db" : "Ktmmvs 69 reddish brown DB",
+		"tds_db2" : "Tdgs 930 reddish brown DB",
+		"tds_db3" : "Tds 930 reddish brown DB",
+		"tds_dbag" : "Tdgs-z 930 reddish brown DB AG",
+		"tds_dbag2" : "Tdgs-z 930 reddish brown DB AG",
+		"tds_dbag3" : "Tds-v 930 reddish brown DB AG",
+		"tds_dbag4" : "Tds 930 traffic red DB AG",
 		"tds_desc" : "Parallel to the Otmm 70 is the DB 1965 building wagons with a swivel roof. This barely contained the Otmm 70, only the upper box was changed and a swivel roof was added. The wagon were used to transport food."
 
 	},
@@ -34,24 +34,24 @@
 		
         "fake": "Fake - ",
 		
-        "fake_facs124" : "Facs124 Fake-Versionen aktivieren?",
-        "tooltip_fake" : "Sollen die Fake-Versionen der Facs 124 verfügbar sein im Spiel?",
+        "fake_tads" : "Fake-Versionen aktivieren?",
+        "tooltip_fake_tads" : "Sollen die Fake-Versionen verfügbar sein im Spiel?",
 		
-		"tads_db" : "Tadgs-y 958 DB",
-		"tads_db2" : "Tads-y 958 DB",
-		"tads_dbag" : "Tadgs-y 958 DB AG",
-		"tads_dbag2" : "Tads 958 DB AG",
-		"tads_dbag3" : "Tadgs 958 DB AG",
-		"tads_ebs" : "Tadgs-y 958 EBS",
+		"tads_db" : "Tadgs-y 958 rotbraun DB",
+		"tads_db2" : "Tads-y 958 rotbraun DB",
+		"tads_dbag" : "Tadgs-y 958 rotbraun DB AG",
+		"tads_dbag2" : "Tads 958 rotbraun DB AG",
+		"tads_dbag3" : "Tadgs 958 verkehrsrot DB AG",
+		"tads_ebs" : "Tadgs-y 958 rotbraun EBS",
         "tads_desc" : "1976 lies die DB 1500 Wagen mit einem Einseitigen Schwenkdach bauen. Die Wagen wo für den Lebensmitteltransport reserviert waren trugen die Aufschrift (Getreide). Die Wagen sind bis heute bei der DB AG im Einsatz 2021 wurden einige Wagen an die EBS verkauft.",
 
-		"tds_db" : "Ktmmvs 69 DB",
-		"tds_db2" : "Tdgs 930 DB",
-		"tds_db3" : "Tds 930 DB",
-		"tds_dbag" : "Tdgs-z 930 DB AG",
-		"tds_dbag2" : "Tdgs-z 930 DB AG",
-		"tds_dbag3" : "Tds-v 930 DB AG",
-		"tds_dbag4" : "Tds 930 DB AG",
+		"tds_db" : "Ktmmvs 69 rotbraun DB",
+		"tds_db2" : "Tdgs 930 rotbraun DB",
+		"tds_db3" : "Tds 930 rotbraun DB",
+		"tds_dbag" : "Tdgs-z 930 rotbraun DB AG",
+		"tds_dbag2" : "Tdgs-z 930 rotbraun DB AG",
+		"tds_dbag3" : "Tds-v 930 rotbraun DB AG",
+		"tds_dbag4" : "Tds 930 verkehrsrot DB AG",
 		"tds_desc" : "Parallel zum Otmm 70 lies die DB 1965 Wagen mit Schwenkdach bauen. Dieses unterschieden sich kaum zum Otmm 70, es wurde lediglich der Oberkasten verändert und ein Schwenkdach angebaut. Die Wagen wurden im Lebensmitteltransport eingesetzt."
 
 	}
