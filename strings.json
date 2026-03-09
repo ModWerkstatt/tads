@@ -29,8 +29,8 @@
 	},
 	"de": {
 		
-        "tads_menu" : "Tads 958 Schwenkdachwagen",
-		"tds_menu" : "Tds 930 Schwenkdachwagen",
+        "menu_tads" : "Tads 958 Schwenkdachwagen",
+		"menu_tds" : "Tds 930 Schwenkdachwagen",
 		
         "fake": "Fake - ",
 		
