@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tds_db2.mtl", },
+							materials = { "mat/rumpf_tds_dbag2.mtl", },
 							mesh = "msh/rumpf_tds_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -132,7 +132,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tds_db2.mtl", },
+							materials = { "mat/rumpf_tds_dbag2.mtl", },
 							mesh = "msh/rumpf_tds_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -160,7 +160,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tds_db2.mtl", },
+							materials = { "mat/rumpf_tds_dbag2.mtl", },
 							mesh = "msh/rumpf_tds_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -188,7 +188,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tds_db2.mtl", },
+							materials = { "mat/rumpf_tds_dbag2.mtl", },
 							mesh = "msh/rumpf_tds_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -203,15 +203,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1965,
-				yearTo = 1994,
+				yearFrom = 1994,
+				yearTo = 2003,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("tds_desc"),
-				name = _("tds_db2"),
+				name = _("tds_dbag2"),
 			},
 			emissions = { 
 				noise = { 
@@ -276,10 +276,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_tds.mdl",
 				loadSpeed = 4,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

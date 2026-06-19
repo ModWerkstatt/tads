@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_dbag3.mtl", },
+							materials = { "mat/rumpf_tads_ebs.mtl", },
 							mesh = "msh/rumpf_tads_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -180,7 +180,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_dbag3.mtl", },
+							materials = { "mat/rumpf_tads_ebs.mtl", },
 							mesh = "msh/rumpf_tads_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -244,7 +244,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_dbag3.mtl", },
+							materials = { "mat/rumpf_tads_ebs.mtl", },
 							mesh = "msh/rumpf_tads_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -254,13 +254,13 @@ return {
 								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
-									name = "a2",
+									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
 								},
 								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod2.msh",
-									name = "a1",
+									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
 								},
 								{ 
@@ -308,7 +308,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_dbag3.mtl", },
+							materials = { "mat/rumpf_tads_ebs.mtl", },
 							mesh = "msh/rumpf_tads_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -323,7 +323,7 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2000,
+				yearFrom = 2021,
 				yearTo = 0,
 			},
 			cost = { 
@@ -331,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("tads_desc"),
-				name = _("tads_dbag3"),
+				name = _("tads_ebs"),
 			},
 			emissions = { 
 				noise = { 
@@ -396,10 +396,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_tads.mdl",
 				loadSpeed = 5,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

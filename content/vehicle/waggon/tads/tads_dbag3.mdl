@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_db2.mtl", },
+							materials = { "mat/rumpf_tads_dbag3.mtl", },
 							mesh = "msh/rumpf_tads_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -180,7 +180,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_db2.mtl", },
+							materials = { "mat/rumpf_tads_dbag3.mtl", },
 							mesh = "msh/rumpf_tads_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -244,7 +244,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_db2.mtl", },
+							materials = { "mat/rumpf_tads_dbag3.mtl", },
 							mesh = "msh/rumpf_tads_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -294,7 +294,7 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 							},
-							name = "bogie",
+							name = "bogie2",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.150000095367431640625, 0, 0, 1, },
 						},
 					},
@@ -308,7 +308,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/rumpf_tads_db2.mtl", },
+							materials = { "mat/rumpf_tads_dbag3.mtl", },
 							mesh = "msh/rumpf_tads_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -323,15 +323,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 1976,
-				yearTo = 1994,
+				yearFrom = 2000,
+				yearTo = 0,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("tads_desc"),
-				name = _("tads_db2"),
+				name = _("tads_dbag3"),
 			},
 			emissions = { 
 				noise = { 
@@ -396,10 +396,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_tads.mdl",
 				loadSpeed = 5,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
